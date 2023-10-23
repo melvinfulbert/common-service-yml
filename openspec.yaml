@@ -12,7 +12,7 @@ info:
 servers:
   - url: https://api.traefik.localhost
 paths:
-  /organization-services/{orgId}:
+  /organization-services/org/{orgId}:
     get:
       summary: Info for a specific customer
       operationId: showCustomerById
